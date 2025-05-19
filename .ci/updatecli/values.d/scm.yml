@@ -1,6 +1,6 @@
 scm:
   enabled: true
-  owner: elastic
+  owner: swiatekm
   repository: elastic-agent
   branch: main
   commitusingapi: true
