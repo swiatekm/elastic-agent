@@ -4,9 +4,26 @@
 
 package update
 
-import "github.com/magefile/mage/sh"
+import (
+	"fmt"
+	"github.com/elastic/elastic-agent/dev-tools/mage/target/common"
+	"github.com/magefile/mage/mg"
+	"github.com/magefile/mage/sh"
+)
 
-// Update updates the generated files (aka make update).
-func Update() error {
-	return sh.Run("make", "update")
+const BeatsModulePath = "github.com/elastic/beats/v7"
+
+func Beats(targetVersion string) error {
+	mg.SerialDeps(mg.F(BeatsModule, targetVersion), common.Notice)
+
+	return nil
+}
+
+func BeatsModule(targetVersion string) error {
+	goArgs := []string{"get", fmt.Sprintf("%s@%s", BeatsModulePath, targetVersion)}
+	err := sh.RunV(mg.GoCmd(), goArgs...)
+	if err != nil {
+		return err
+	}
+	return sh.RunV(mg.GoCmd(), "mod", "tidy")
 }
