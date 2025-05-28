@@ -757,11 +757,11 @@ Contents of probable licence file $GOMODCACHE/github.com/dolmen-go/contextio@v0.
 
 --------------------------------------------------------------------------------
 Dependency : github.com/elastic/beats/v7
-Version: v7.0.0-alpha2.0.20250525124050-8a25b3dc789e
+Version: v7.0.0-alpha2.0.20250528001244-23bc133f4e09
 Licence type (autodetected): Elastic
 --------------------------------------------------------------------------------
 
-Contents of probable licence file $GOMODCACHE/github.com/elastic/beats/v7@v7.0.0-alpha2.0.20250525124050-8a25b3dc789e/LICENSE.txt:
+Contents of probable licence file $GOMODCACHE/github.com/elastic/beats/v7@v7.0.0-alpha2.0.20250528001244-23bc133f4e09/LICENSE.txt:
 
 Source code in this repository is variously licensed under the Apache License
 Version 2.0, an Apache compatible license, or the Elastic License. Outside of
@@ -33400,11 +33400,11 @@ SOFTWARE.
 
 --------------------------------------------------------------------------------
 Dependency : github.com/dgraph-io/badger/v4
-Version: v4.5.1
+Version: v4.6.0
 Licence type (autodetected): Apache-2.0
 --------------------------------------------------------------------------------
 
-Contents of probable licence file $GOMODCACHE/github.com/dgraph-io/badger/v4@v4.5.1/LICENSE:
+Contents of probable licence file $GOMODCACHE/github.com/dgraph-io/badger/v4@v4.6.0/LICENSE:
 
                                  Apache License
                            Version 2.0, January 2004
@@ -41779,11 +41779,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 --------------------------------------------------------------------------------
 Dependency : github.com/google/flatbuffers
-Version: v24.12.23+incompatible
+Version: v25.2.10+incompatible
 Licence type (autodetected): Apache-2.0
 --------------------------------------------------------------------------------
 
-Contents of probable licence file $GOMODCACHE/github.com/google/flatbuffers@v24.12.23+incompatible/LICENSE:
+Contents of probable licence file $GOMODCACHE/github.com/google/flatbuffers@v25.2.10+incompatible/LICENSE:
 
 
                                  Apache License
