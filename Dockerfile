@@ -1,4 +1,4 @@
-ARG GO_VERSION=1.24.10
+ARG GO_VERSION=1.24.11
 FROM circleci/golang:${GO_VERSION}
 
 
